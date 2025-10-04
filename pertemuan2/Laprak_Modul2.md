@@ -293,7 +293,7 @@ int main(){
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/Pertemuan2/output/Output2_Soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/(raffydwianggara29)/(103112400252_Raffy_Dwi_Anggara)/blob/main/pertemuan2/Output/Output2_Soal1.png)
 
 penjelasan unguided 1 
 Program ini berfungsi untuk menampilkan hasil dari penjumlahan, pengurangan, dan perkalian dari matriks 3x3 dengan menggunakan array 3 dimensi.
@@ -356,10 +356,10 @@ int main(){
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/Pertemuan2/output/Output2_Soal2_Pointer.png)
+![Screenshot Output Unguided 2_1](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan2/Output/Output2_Soal2_Pointer.png)
 
 ##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/Pertemuan2/output/Output2_Soal2_Reference.png)
+![Screenshot Output Unguided 2_2](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan2/Output/Output2_Soal2_Reference.png)
 
 penjelasan unguided 2
 Program ini berfungsi untuk menukar nilai 3 variabel dengan menggunakan pointer dan juga menggunakan reference (dengan menggunakan inisial).
@@ -441,10 +441,13 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/Pertemuan2/output/Output2_Soal3(1).png)
+
+##### Output 1
+![Screenshot Output Unguided 3_1](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan2/Output/Output2_Soal3(1).png)
 
 ##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/Pertemuan2/output/Output2_Soal3(2).png)
+![Screenshot Output Unguided 3_2](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan2/Output/Output2_Soal3(2).png)
+
 
 
 penjelasan unguided 3
