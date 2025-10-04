@@ -293,7 +293,7 @@ int main(){
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(raffydwianggara29)/(103112400252_Raffy_Dwi_Anggara)/blob/main/pertemuan2/Output/Output2_Soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan2/Output/Output2_Soal1.png)
 
 penjelasan unguided 1 
 Program ini berfungsi untuk menampilkan hasil dari penjumlahan, pengurangan, dan perkalian dari matriks 3x3 dengan menggunakan array 3 dimensi.
