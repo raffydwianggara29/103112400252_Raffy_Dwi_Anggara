@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/103112400252_Raffy_Dwi_Anggara",
-      "program": "c:/103112400252_Raffy_Dwi_Anggara/build/Debug/outDebug",
+      "cwd": "c:/103112400252_Raffy_Dwi_Anggara/pertemuan4/guided2",
+      "program": "c:/103112400252_Raffy_Dwi_Anggara/pertemuan4/guided2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
