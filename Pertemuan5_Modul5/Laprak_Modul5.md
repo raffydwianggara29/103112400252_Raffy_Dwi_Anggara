@@ -1424,7 +1424,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_2](https://github.com/raffydwianggara/103112400252_Raffy_Dwi_Anggara/blob/main/Pertemuan5_Modul5/output/Output3_+-X.png)
+![Screenshot Output Unguided 3_2](https://github.com/raffydwianggara/103112400252_Raffy_Dwi_Anggara/blob/main/Pertemuan5_Modul5/output/Output3png)
 
 penjelasan unguided 3
 Program ini berfungsi untuk menghitung hasil penjumlahan, pengurangan, dan perkalian ke seluruh list dengan menggunakan fungsi Penjumlahan dengan nilai awal yaitu 0, lalu menggunakan fungsi Pengurangan dengan nilai awal yaitu nilai node pertama yaitu 50, serta menggunakan fungsi Perkalian dengan nilai awal yaitu 1.
