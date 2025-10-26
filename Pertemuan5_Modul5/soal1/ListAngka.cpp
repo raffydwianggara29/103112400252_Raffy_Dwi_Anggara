@@ -1,0 +1,154 @@
+#include "ListAngka.h"
+using namespace std;
+
+void CreateList(LinkedList &L) {
+
+    L.first = Nil;
+}
+
+address alokasi(dataAngka x) {
+    address nodeBaru = new node;
+    nodeBaru->Angka = x;
+    nodeBaru->next = Nil;
+    return nodeBaru;
+}
+
+void dealokasi(address P) {
+    P->next = Nil;
+    delete P;
+}
+
+void printInfo(LinkedList L) {
+    address P = L.first;
+    if (P == Nil) {
+        cout << "List kosong" << endl;
+    } else {
+        while (P != Nil) {
+            cout << P->Angka << " - ";
+            P = P->next;
+        }
+        cout << endl;
+    }
+}
+
+void insertFirst(LinkedList &L, address nodeBaru) {
+    nodeBaru->next = L.first;
+    L.first = nodeBaru;
+}
+void insertLast(LinkedList &L, address nodeBaru) {
+    if (L.first == Nil) {
+        L.first = nodeBaru;
+    } else {
+        address P = L.first;
+        while (P->next != Nil) {
+            P = P->next;
+        }
+        P->next = nodeBaru;
+    }
+}
+
+void insertAfter(LinkedList &L, address nodeBaru, address nodePrev) {
+    if (nodePrev != Nil) {
+        nodeBaru->next = nodePrev->next;
+        nodePrev->next = nodeBaru;
+    } else {
+        cout << "Node sebelumnya tidak valid!" << endl;
+    }
+}
+
+
+
+void delAfter(LinkedList &L, address nodeHapus, address nodePrev){
+    if(L.first == Nil){
+        cout << "List kosong!" << endl;
+    } else { 
+        if (nodePrev != Nil && nodePrev->next != Nil) { 
+            nodeHapus = nodePrev->next;       
+            nodePrev->next = nodeHapus->next;  
+            nodeHapus->next = Nil;         
+            dealokasi(nodeHapus);
+        } else {
+            cout << "Node sebelumnya tidak valid!" << endl;
+        }
+    }
+}
+
+void printList(LinkedList L) {
+    if (L.first == Nil) {
+        cout << "List kosong." << endl;
+    } else {
+        address nodeBantu = L.first;
+        while (nodeBantu != Nil) { 
+            cout << nodeBantu->Angka;
+            if (nodeBantu->next != Nil) cout << " - ";
+            nodeBantu = nodeBantu->next;
+        }
+    }
+}
+
+int nbList(LinkedList L) {
+    int count = 0;
+    address P = L.first;
+    if (P == Nil) {
+        cout << "LIst kosong";
+    } else {
+        while (P != Nil) {
+            cout << P->Angka << " - ";
+            count++;
+            P = P->next;
+        }
+        cout << endl;
+    }
+    return count;
+}
+
+void updateFirst(LinkedList &L){
+    if(L.first == Nil){
+        cout << "List kosong!" << endl;
+    } else {
+        cout << "Masukkan update data node pertama : " << endl;
+        cout << "Masukkan angka : ";
+        int NewValue;
+        cin >> NewValue;
+        L.first->Angka = NewValue;
+        cout << "Data Berhasil Diupdate!" << endl;
+        cout << endl;
+    }
+}
+
+void updateLast(LinkedList &L){
+    if (L.first == Nil) {
+        cout << "List Kosong!" << endl;
+    } else {
+        address nodeBantu = L.first;
+        while (nodeBantu->next != Nil) {
+            nodeBantu = nodeBantu->next;
+        }
+        cout << "Masukkan update data node terakhir : " << endl;
+        cout << "Masukkan angka : ";
+        int NewValue;
+        cin >> NewValue;
+        nodeBantu->Angka = NewValue;
+        cout << "Data Berhasil Diupdate!" << endl;
+        cout << endl;
+    }
+}
+
+void updateAfter(LinkedList &L, address nodePrev){
+    if(L.first == Nil){
+        cout << "List kosong!" << endl;
+    } else {
+        if (nodePrev != Nil && nodePrev->next != Nil){
+            address nodeBantu = nodePrev->next;
+            cout << "Masukkan update data node setelah node " << nodePrev->Angka << " : " << endl;
+            cout << "Masukkan angka : ";
+            int NewValue;
+            cin >> NewValue;
+            nodeBantu->Angka = NewValue;
+            cout << "Data Berhasil Diupdate!" << endl;
+            cout << endl;
+        } else {
+            cout << "Node sebelumnya (prev) tidak valid!" << endl;
+        }
+    }
+}
