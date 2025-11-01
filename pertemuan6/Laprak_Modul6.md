@@ -985,7 +985,8 @@ int main(){
 
 penjelasan unguided 1 
 Program ini berfungsi untuk menambahkan nomor polisi dengan warna dan tahun kendaraan. Jika terdapat nomor polisi yang sama,output akan mencetak "nomor polisi sudah terdaftar" pada akhiran inputan nomor polisi yang akan diperiksa di fungsi if duplikat di dalam fungsi insertlast. Setelah itu, nomor polisi yang sama tadi tidak ditampilkan di data list sehingga hanya mencetak 3 inputan dari 4 inputan.
-### 2. ![Screenshot Output Unguided 2_1](https://github.com/raffydwianggara/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan6/soal2.png)
+
+### 2. ![Screenshot Output Unguided 2_1](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan6/soal2.png)
 
 ```C++
 //Doublylist.h
