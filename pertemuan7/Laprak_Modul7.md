@@ -400,7 +400,7 @@ Program ini berfungsi untuk membuat stack dengan menggunakan fungsi array dengan
 
 ## Unguided 
 
-### 1. ![Screenshot Output Unguided 1_1](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuna7/soal1.png)
+### 1. ![Screenshot Output Unguided 1_1](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan7/soal1.png)
 
 ```C++
 //stack.h
