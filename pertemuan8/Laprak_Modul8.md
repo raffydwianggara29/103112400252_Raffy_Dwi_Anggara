@@ -788,7 +788,7 @@ int main()
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan8/output/output3.png)
+![Screenshot Output Unguided 3_1](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan8/output/Output3.png)
 
 penjelasan unguided 3
 Program ini berfungsi untuk membuat struktur antrian yaitu queue dengan menggunakan array berukuran tetap dengan nilai maksimal 5 serta menggunakan implementasi 3 dalam pembuatannya yaitu head dan tail berputar. 
