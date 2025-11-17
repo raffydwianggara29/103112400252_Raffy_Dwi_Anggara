@@ -59,5 +59,6 @@
   "files.associations": {
     "iostream": "cpp",
     "ostream": "cpp"
-  }
+  },
+  "codeiumEnterprise.portalUrl": "https://codeium.customer.com"
 }
