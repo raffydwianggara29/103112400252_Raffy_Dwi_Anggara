@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 3 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
+# <h1 align="center">Laporan Praktikum Modul 3 - Abstract Data Type(ADT)</h1>
 <p align="center">Raffy Dwi Anggara - 103112400252</p>
 
 ## Dasar Teori
