@@ -715,7 +715,7 @@ Program ini berfungsi untuk membuat Multi Linked List dengan beberapa fungsi yai
 ### 1. ![Screenshot Output Unguided 1_1](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan11/soall/soal1_1.png)
 ![Screenshot Output Unguided 1_2](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan11/soall/soal1_2.png)
 ![Screenshot Output Unguided 1_3](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan11/soall/soal1_3.png)
-![Screenshot Output Unguided 1_4](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan10/soall/soal1_4.png)
+![Screenshot Output Unguided 1_4](https://github.com/raffydwianggara29/103112400252_Raffy_Dwi_Anggara/blob/main/pertemuan11/soall/soal1_4.png)
 ```C++
 //MultiLL.h
 #ifndef MULTILL_H
