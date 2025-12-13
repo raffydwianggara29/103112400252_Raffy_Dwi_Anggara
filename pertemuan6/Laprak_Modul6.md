@@ -11,10 +11,7 @@ Doubly Linked List (DLL) merupakan struktur data yang terdiri dari node-node yan
 #### 2. Delete
 Pada Doubly linked list, ada beberapa cara fungsi delete, yaitu deleteFirts, deleteLast, dan deleteAfter. DeleteFirts adalah operasi untuk menghapus data pada posisi pertama, deleteLast merupakan menghapus data pada posisi terakhir, sedangkan deleteAfter adalah penghapusan data di tengah linked list.[3]
 #### 3. Searching
-Pencarian dilakukan dengan memeriksa data yang ada dalam linked list dengan
-data yang dicari. Pencarian dilakukan dari data pertama sampai data ditemukan
-atau pointer pencari (bantu) telah mencapai akhir dari list yang menandakan
-bahwa data yang dicari tidak ditemukan.[3]
+Pencarian dilakukan dengan memeriksa data yang ada dalam linked list dengan data yang dicari. Pencarian dilakukan dari data pertama sampai data ditemukan atau pointer pencari (bantu) telah mencapai akhir dari list yang menandakan bahwa data yang dicari tidak ditemukan.[3]
 
 ## Guided 
 

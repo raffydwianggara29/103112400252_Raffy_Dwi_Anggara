@@ -3,7 +3,7 @@
 
 ## Dasar Teori
 Multi-Linked List adalah jenis linked list di mana setiap node dapat memiliki lebih dari satu pointer (link) ke node lain. Artinya, bukan hanya satu urutan (seperti "next" pada singly linked list) atau dua arah (seperti prev/next pada doubly linked list), tapi bisa banyak pointer, sesuai kebutuhan.[1]
-### A. Materi Modul 11
+### A. Materi Modul 13 Pertemuan 11
 Pada pertemuan ke 11 ini, kita akan membahas fungsi fungsi pada struktur MLL (Multi Linked List)
 #### 1. Update
 Update merupakan sebuah fungsi yang berfungsi sebagai mengubah elemen yang ditunjuk dengan pointer dan diisi dari sesuatu.[2]
