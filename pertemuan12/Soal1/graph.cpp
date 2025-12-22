@@ -28,14 +28,11 @@ void InsertNode(graph &G, infoGraph X){
 
 void ConnectNode(adrNode N1, adrNode N2) {
     if (N1 != NULL && N2 != NULL) {
-
-        // Buat edge dari N1 -> N2
         adrEdge E1 = new ElmEdge;
         E1->Node = N2;
         E1->Next = N1->firstEdge;
         N1->firstEdge = E1;
 
-        // Buat edge dari N2 -> N1 (undirected)
         adrEdge E2 = new ElmEdge;
         E2->Node = N1;
         E2->Next = N2->firstEdge;

@@ -17,7 +17,7 @@ void createList(linkedlist &List) {
 
 address alokasi(string tittle, string Artist, int Duration, int Playcount, float rating) { 
     address nodeBaru = new node;
-    nodeBaru-> = nama;
+    nodeBaru-> = Artist;
     nodeBaru->info.tittle = tittle; 
     nodeBaru->info.Artist = Artist;
     nodeBaru->info.Duration =  Duration;
